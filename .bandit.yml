@@ -1,0 +1,4 @@
+---
+skips:
+  - "B101"  # Ignore assertions
+  - "B601"  # Paramiko calls
