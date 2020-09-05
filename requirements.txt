@@ -1,0 +1,11 @@
+bandit
+black
+cffi
+netaddr
+paramiko
+pylint
+pytest
+pytest-pythonpath
+pyYAML
+textfsm
+yamllint
