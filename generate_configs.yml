@@ -1,0 +1,14 @@
+---
+- name: "GENERATE ANSIBLE CONFIGURATIONS"
+  connection: local
+  hosts: rtr-01
+  gather_facts: false
+  tasks:
+    - name: "GENERATE CONFIGURATIONS FROM TEMPLATE FILE"
+      template:
+        src: routing.j2
+        dest: ./configs/{{ inventory_hostname }}-routing.cfg
+      delegate_to: localhost
+
+    - debug:
+        msg: "{{the_config}}"  
