@@ -1,0 +1,15 @@
+ansible-lint
+bandit
+black
+cffi
+jinja2
+jsonschema
+netaddr
+paramiko
+pylint
+pytest
+pytest-pythonpath
+pyYAML
+requests
+textfsm
+yamllint
