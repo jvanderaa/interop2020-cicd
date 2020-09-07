@@ -1,3 +1,3 @@
-[tool.pylint]
+[tool.pylint.ini_options]
 max-line-length = 120
 disable = ["C0330"]
