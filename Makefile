@@ -17,6 +17,18 @@ setup:
 	@echo "Starting  setup"
 	pip install -r requirements.txt
 
+.PHONY: jenkins_lint
+jenkins_lint:
+	yamllint -s .
+	bandit --recursive ./ --configfile .bandit.yml
+	find ./ -name "*.py" | xargs pylint
+	black --check ./
+	ansible-lint ./
+
+.PHONY: jenkins_unit
+jenkins_unit:
+	pytest -vvvv
+
 .PHONY: test
 test:	lint unit
 

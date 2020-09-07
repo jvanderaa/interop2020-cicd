@@ -4,3 +4,4 @@ COPY . /local
 WORKDIR /local
 
 RUN pip install -r requirements.txt
+RUN ls -alh

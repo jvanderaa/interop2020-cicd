@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Setup Container') {
             steps {
-                sh 'make setup'
+                sh 'make build'
             }
         }
         stage('Linting') {
