@@ -1,5 +1,5 @@
+# jsonschema: 1,2
 ---
-# jsonschema: 1
 router_id: 192.0.2.1
 networks:
   - network: 192.0.2.0
@@ -10,4 +10,4 @@ networks:
     area: 0
 dns_servers:
   - 203.0.113.10
-  - 203.0.113.13
+  - 203.0.113.11

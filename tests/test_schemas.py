@@ -14,7 +14,7 @@ from jsonschema import draft7_format_checker
 
 DIRECTORIES = ["devices", "regions", "sites", "tags"]
 YAML_EXCLUSION_FILES = [".travis.yml", ".yamllint.yml"]
-SCHEMA_FOLDER = "./schemas"
+SCHEMA_FOLDER = "./schema/schemas"
 
 
 def get_json_files():
