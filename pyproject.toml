@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+python_paths = "./"
+testpaths = "tests/"
+addopts = "-vv"
