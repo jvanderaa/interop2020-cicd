@@ -1,4 +1,4 @@
-IMG_NAME = jvanderaa/interop
+IMG_NAME = jvanderaa/ci_demo
 IMG_VERSION = 0.1.0
 
 .DEFAULT_GOAL := test
