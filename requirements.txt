@@ -7,5 +7,6 @@ pylint
 pytest
 pytest-pythonpath
 pyYAML
+schema-enforcer
 textfsm
 yamllint

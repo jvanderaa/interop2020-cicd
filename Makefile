@@ -1,5 +1,5 @@
 IMG_NAME = jvanderaa/ci_demo
-IMG_VERSION = 0.1.0
+IMG_VERSION = 0.2.0
 
 .DEFAULT_GOAL := test
 
